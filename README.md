@@ -4,10 +4,24 @@ isc.sans.edu.api
 
 Powershell Module to query the SANS ISC (Internet Storm Center) API found at https://isc.sans.edu/api
 
+==================
+Usage
+==================
+Import-Module stormcenter
+Get-ISCInfocon
+Get-ISCHandler
+Get-ISCBackscatter 2017-06-21 10
+Get-ISCIp 70.91.145.10
+Get-ISCPort 80
+Get-ISCPort 80 "2017-06-21"
+Get-ISCTopPorts 2017-06-21 10
+etc.
+
 =========
 Requirements
 =========
 1.) Powershell
+2.) Internet Connection
 
 =========
 License
