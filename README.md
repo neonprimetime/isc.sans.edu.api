@@ -10,12 +10,31 @@ Usage
 Import-Module stormcenter
 Get-ISCInfocon
 Get-ISCHandler
-Get-ISCBackscatter 2017-06-21 10
-Get-ISCIp 70.91.145.10
-Get-ISCPort 80
-Get-ISCPort 80 "2017-06-21"
-Get-ISCTopPorts 2017-06-21 10
-etc.
+Get-ISCBackscatter
+Get-ISCIp
+Get-ISCPort
+Get-ISCPortDate
+Get-ISCTopPorts
+Get-ISCTopIps
+Get-ISCSources
+Get-ISCPortHistory
+Get-ISCAsnum
+Get-ISCDailySummary
+Get-ISCDaily404Summary
+Get-ISCDaily404Detail
+Get-ISCGlossary
+Get-ISCThreatFeeds
+Get-ISCThreatFeedsPerDay
+ISCThreatFeedsByDataFeed
+Get-ISCThreatFeedIps
+Get-ISCThreatFeedByCategory
+Get-ISCWebHoneypotSummary
+Get-ISCWebHoneypotByType
+Get-ISCOpenIOCLogs
+Get-ISCMSPatchDay
+Get-ISCMSPatch
+Get-ISCMSPatchCVEs
+Get-ISCMSPatchKBs
 
 =========
 Requirements
