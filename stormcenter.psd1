@@ -67,7 +67,12 @@ PowerShellVersion = '4.0'
 
 # Functions to export from this module
 FunctionsToExport = 'Get-ISCInfocon', 'Get-ISCHandler', 'Get-ISCBackscatter', 'Get-ISCIp', 'Get-ISCPort',
-                'Get-ISCPortDate', 'Get-ISCTopPorts'
+                'Get-ISCPortDate', 'Get-ISCTopPorts', 'Get-ISCTopIps', 'Get-ISCSources', 'Get-ISCPortHistory',
+                'Get-ISCAsnum', 'Get-ISCDailySummary', 'Get-ISCDaily404Summary', 'Get-ISCDaily404Detail',
+                'Get-ISCGlossary', 'Get-ISCThreatFeeds', 'Get-ISCThreatFeedsPerDay', 'ISCThreatFeedsByDataFeed',
+                'Get-ISCThreatFeedIps', 'Get-ISCThreatFeedByCategory', 'Get-ISCWebHoneypotSummary',
+                'Get-ISCWebHoneypotByType', 'Get-ISCOpenIOCLogs', 'Get-ISCMSPatchDay', 'Get-ISCMSPatch',
+                'Get-ISCMSPatchCVEs', 'Get-ISCMSPatchKBs'
 
 # Cmdlets to export from this module
 CmdletsToExport = '*'
